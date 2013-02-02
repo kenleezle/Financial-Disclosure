@@ -1,3 +1,4 @@
+require 'json'
 class Committee
   attr_accessor :congressmen
   attr_accessor :name

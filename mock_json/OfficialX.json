@@ -6,13 +6,15 @@
     "Stockholdings": [
       {
         "Beta": 1.1,
-        "BuyDate": "2011-05-01",
-        "SellDate": "2011-05-04",
         "CompanyName": "General Electric",
         "Ticker": "GE",
-        "ValueRange": {
-          "Min": 5.67,
-          "Max": 9.09
+        "Buy": {
+          "Date": "2011-05-01",
+          "ValueRange": [ 5000, 1000 ]
+        },
+        "Sell": {
+          "Date": "2011-05-01",
+          "ValueRange": [ 1000, 5000 ]
         },
         "TotalPercentageChange": 5.2,
         "DailyPercentageChanges": [
