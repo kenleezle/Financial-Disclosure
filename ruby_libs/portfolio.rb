@@ -26,4 +26,6 @@ class Portfolio
     retval.holdings = holdings + portfolio.holdings
     return retval
   end
+  def to_json
+  end
 end

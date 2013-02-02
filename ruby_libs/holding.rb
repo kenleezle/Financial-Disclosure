@@ -3,6 +3,7 @@ class Holding
   attr_accessor :bought_date, :sold_date
   attr_accessor :performance
   attr_accessor :min_dollars_invested, :max_dollars_invested
+  attr_accessor :json
 
   def went_up?
     return true if performance > 0
@@ -23,5 +24,10 @@ class Holding
   end
   def worst_case_dollars_gained
     worst_case_dollars_invested * performance
+  end
+  def create_from_json(json)
+    h = Holding.new
+    h.json = json
+    return h
   end
 end
