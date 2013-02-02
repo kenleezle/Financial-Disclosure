@@ -7,12 +7,12 @@ benchmark = 1268.80
 change = last_change = 0
 STDIN.readlines.each { | line |
   line.chomp!
-  (date,value) = line.split(",",2)
-  if !value.nil? then
+  (date,value) = line.split(",")
+  if value.nil? then
+  	change = last_change
+  else
   	change = (value.to_f-benchmark)/benchmark
 	last_change = change
-  else
-  	change = last_change
   end
   output["days"].push({:date=>date,:change=>change,:value=>value})
 }
