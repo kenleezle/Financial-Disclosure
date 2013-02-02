@@ -5,6 +5,7 @@
     "Position": "Senator",
     "Stockholdings": {
       {
+        "Beta": 1.1,
         "BuyDate": "2011-05-01",
         "SellDate": "2011-05-04",
         "CompanyName": "General Electric",
@@ -12,7 +13,7 @@
         "ValueRange": {
           "Min": 5.67,
           "Max": 9.09
-        }
+        },
         "TotalPercentageChange": 5.2,
         "DailyPercentageChanges": {
           {
