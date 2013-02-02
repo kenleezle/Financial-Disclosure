@@ -3,7 +3,7 @@
     "Id": 939428384,
     "Name": "Lindsey Graham",
     "Position": "Senator",
-    "Stockholdings": {
+    "Stockholdings": [
       {
         "Beta": 1.1,
         "BuyDate": "2011-05-01",
@@ -15,7 +15,7 @@
           "Max": 9.09
         },
         "TotalPercentageChange": 5.2,
-        "DailyPercentageChanges": {
+        "DailyPercentageChanges": [
           {
             "Date": "2011-05-02",
             "PercentageChange": 5
@@ -28,8 +28,8 @@
             "Date": "2011-05-03",
             "PercentageChange": 0.2 
           }
-        }
+        ]
       }
-    }
+    ]
   }
 }
