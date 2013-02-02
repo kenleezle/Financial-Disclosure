@@ -1,0 +1,17 @@
+{
+	"name": "Data Sets",
+	"children": [
+		{
+			"displayName": "S&P 500",
+			"dataSetId": 1111
+		},
+		{
+			"displayName": "DJIA",
+			"dataSetId": 2222
+		},
+		{
+			"displayName": "Nasdaq",
+			"dataSetId": 1111
+		}
+	]
+}
