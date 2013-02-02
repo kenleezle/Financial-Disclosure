@@ -1,0 +1,34 @@
+{
+  "Official": {
+    "Id": 939428384,
+    "Name": "Lindsey Graham",
+    "Position": "Senator",
+    "Stockholdings": {
+      {
+        "BuyDate": "2011-05-01",
+        "SellDate": "2011-05-04",
+        "CompanyName": "General Electric",
+        "Ticker": "GE",
+        "ValueRange": {
+          "Min": 5.67,
+          "Max": 9.09
+        }
+        "TotalPercentageChange": 5.2,
+        "DailyPercentageChanges": {
+          {
+            "Date": "2011-05-02",
+            "PercentageChange": 5
+          },
+          {
+            "Date": "2011-05-03",
+            "PercentageChange": -5
+          },
+          {
+            "Date": "2011-05-03",
+            "PercentageChange": 0.2 
+          }
+        }
+      }
+    }
+  }
+}
