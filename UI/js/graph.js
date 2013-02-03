@@ -15,16 +15,21 @@ function findMin(obj){
 }
 function drawOfficial(official) {
   var official_json = 'js/data/'+official+'.json';
-  var data = [];
   d3.json(official_json, function (err,spobj) {
-    for (var i in spobj.days) {
-      data.push([spobj.days[i].date,spobj.days[i].change]);
+    for (var i in spobj.Holdings) {
+      var data = [];
+      var holding = spobj.Holdings[i];
+      console.log("drawing holding "+holding.Ticker);
+      for (var j in holding.DailyPercentageChanges) {
+        dpc = holding.DailyPercentageChanges[j];
+        data.push([dpc.Date,dpc.PercentageChange]);
+      }
+      drawLine(data, graph, "data2");
+      console.log("done with "+holding.Ticker);
     }
-    drawLine(data, graph, "data2");
     console.log("...done.");
   });
 }
-
 
 function initGraph() {
   // define dimensions of graph
