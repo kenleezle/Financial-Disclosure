@@ -14,7 +14,7 @@ function findMin(obj){
   return Math.min.apply( Math, temp2 );
 }
 function drawOfficial(official) {
-  var official_json = 'js/data/'+official+'.json';
+  var official_json = 'js/sp_shifted_data/'+official+'.json';
   d3.json(official_json, function (err,spobj) {
     for (var i in spobj.Holdings) {
       var data = [];
