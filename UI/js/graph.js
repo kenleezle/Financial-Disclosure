@@ -14,6 +14,8 @@ function findMin(obj){
   return Math.min.apply( Math, temp2 );
 }
 function drawOfficial(official) {
+  $(".data2").hide();
+  $(".dataNcircle").hide();
   var official_json = 'js/sp_shifted_data/'+official+'.json';
   d3.json(official_json, function (err,spobj) {
     for (var i in spobj.Holdings) {
@@ -94,6 +96,8 @@ function initGraph() {
 
 function drawLine(mydata, mygraph, graphclass, myholding) {
 		/* implementation heavily influenced by http://bl.ocks.org/1166403 */
+		$(".data2").show();
+		$(".dataNcircle").show();
 		
 		var maxsp = findMax(mydata);
 		var minsp = findMin(mydata);
@@ -111,7 +115,7 @@ function drawLine(mydata, mygraph, graphclass, myholding) {
 			.attr("class", graphclass)
 			.on("mouseover",function(d) {
 				if(graphclass != "data1"){
-					showData(this, 0, myholding);
+					showData(this, parseFloat(mydata[mydata.length-1][1]-mydata[0][1]), myholding);
 				}
 			})
 			.on("mouseout",function(d) {
@@ -127,9 +131,9 @@ function drawLine(mydata, mygraph, graphclass, myholding) {
 				 .data(mydata)
 				 .enter().append("circle")
 				 .attr("fill", function(d,i) { if(i == 0){
-				 								return "green";
+				 								return "#333";
 				 								}else if(i == mydata.length-1){
-					 								return "red";
+					 								return "#333";
 				 								}else{
 					 								return "none";
 				 								}})
@@ -141,7 +145,7 @@ function drawLine(mydata, mygraph, graphclass, myholding) {
 				 .attr("cy", function(d,i) { if(i == 0 || i == mydata.length-1){
 				 								return y(parseFloat(d[1]));
 				 								}})
-				 .on("mouseover",function(d) { showData(this, y(parseFloat(d[1])), myholding);})
+				 .on("mouseover",function(d) { showData(this, parseFloat(mydata[mydata.length-1][1]-mydata[0][1]), myholding);})
 				 .on("mouseout",function(d) { hideData();});
 		}
 		
@@ -194,11 +198,11 @@ function showData(obj, d, hld) {
 	 infobox.style("left", (coord[0] + 100) + "px" );
 	 infobox.style("top", (coord[1] - 175) + "px");
 	 
-	 if(d != 0){
-	 	$(".infobox").html(hld.Ticker+": "+d.toFixed(4));
-	 } else {
-		$(".infobox").html(hld.Ticker); 
-	 }
+	 //if(d != 0){
+	 	$(".infobox").html(hld.Ticker+": "+d.toFixed(2)+" %");
+	 //} else {
+	//	$(".infobox").html(hld.Ticker); 
+	 //}
 	 
 	 $(".infobox").show();
 }
