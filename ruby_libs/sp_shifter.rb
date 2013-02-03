@@ -27,17 +27,22 @@ Dir.foreach(PATH) do |item|
 
   official = JSON.load File.new(PATH+item).read
   official["Holdings"].each { | holding |
+    factor = 1
     first_date = holding["DailyPercentageChanges"][0]["Date"]
     puts holding["DailyPercentageChanges"][0]["Date"]
     sp_on_first_date = sph[first_date]
     puts "sp on first date"+sp_on_first_date.to_s
     puts "stock on first date"+holding["DailyPercentageChanges"][0]["PercentageChange"].to_s
     shift = sp_on_first_date.to_f - holding["DailyPercentageChanges"][0]["PercentageChange"].to_f
+
+    #if item == "N00009825.json" then
+    #  factor = 2.0
+    #end
     puts "Shift for holding #{holding["Ticker"]}:"+shift.to_s
 
 
     holding["DailyPercentageChanges"].each { | dpc |
-      dpc["PercentageChange"] = dpc["PercentageChange"] + shift
+      dpc["PercentageChange"] = (dpc["PercentageChange"] + shift)*factor
     }
   }
   File.new(DSTPATH+item,"w").write JSON.generate(official,{:indent => "  ",:object_nl => "\n"})
