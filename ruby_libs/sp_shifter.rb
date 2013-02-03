@@ -35,9 +35,9 @@ Dir.foreach(PATH) do |item|
     puts "stock on first date"+holding["DailyPercentageChanges"][0]["PercentageChange"].to_s
     shift = sp_on_first_date.to_f - holding["DailyPercentageChanges"][0]["PercentageChange"].to_f
 
-    #if item == "N00009825.json" then
-    #  factor = 2.0
-    #end
+    if item == "N00009825.json" then
+      factor = 2.0
+    end
     puts "Shift for holding #{holding["Ticker"]}:"+shift.to_s
 
 
