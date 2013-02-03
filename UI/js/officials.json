@@ -1,6 +1,9 @@
 {
   "name":"Data Sets",
   "children":[    {
+      "displayName":"Nelson, Ben",
+      "dataSetId":"N00005329"
+    },    {
       "displayName":"Abercrombie, Neil",
       "dataSetId":"N00007665"
     },    {
@@ -1827,9 +1830,6 @@
     },    {
       "displayName":"Neal, Richard E",
       "dataSetId":"N00000153"
-    },    {
-      "displayName":"Nelson, Ben",
-      "dataSetId":"N00005329"
     },    {
       "displayName":"Nelson, Bill",
       "dataSetId":"N00009926"
