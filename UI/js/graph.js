@@ -29,7 +29,9 @@ function drawOfficial(official) {
         dpc = holding.DailyPercentageChanges[j];
         data.push([dpc.Date,dpc.PercentageChange]);
       }
-      drawLine(data, graph, "data2", holding, official);
+      
+      var colorX = createColorList(holding.length)
+      drawLine(data, graph, "data2", holding, official, colorX);
       console.log("done with "+holding.Ticker);
     }
     console.log("...done.");
@@ -97,7 +99,7 @@ function initGraph() {
  
 }
 
-function drawLine(mydata, mygraph, graphclass, myholding, myofficial) {
+function drawLine(mydata, mygraph, graphclass, myholding, myofficial, mycolor) {
 		/* implementation heavily influenced by http://bl.ocks.org/1166403 */
 		$("."+myofficial).show();
 		//$(".dataNcircle").show();
@@ -116,6 +118,7 @@ function drawLine(mydata, mygraph, graphclass, myholding, myofficial) {
 		mygraph.append("svg:path")
 			.attr("d", myline(mydata))
 			.attr("class", graphclass+" "+myofficial)
+			.style("stroke", mycolor)
 			.on("mouseover",function(d) {
 				if(graphclass != "data1"){
 					showData(this, parseFloat(mydata[mydata.length-1][1]-mydata[0][1]), myholding);
@@ -141,7 +144,7 @@ function drawLine(mydata, mygraph, graphclass, myholding, myofficial) {
 					 								return "none";
 				 								}})
 				 .attr("class", "dataNcircle "+myofficial)
-				 .attr("r", 4)
+				 .attr("r", 3)
 				 .attr("cx", function(d,i) { if(i == 0 || i == mydata.length-1){
 				 								return x(Date.parse(d[0]));
 				 								}})
@@ -203,7 +206,7 @@ function showData(obj, d, hld) {
 	 var mycolor;
 	 if(d>0){mycolor = "green"}else{mycolor = "red"}
 	 //if(d != 0){
-	 	$(".infobox").html('<h1>'+hld.Ticker+'</h1><h2 style="color:'+mycolor+';">'+d.toFixed(2)+' %</h2>');
+	 	$(".infobox").html('<p style="font-size:smaller;color:#aaa;">'+hld.Buy.Date+' - '+hld.Sell.Date+'</p><h1>'+hld.Ticker+'</h1><h2 style="color:'+mycolor+';">'+d.toFixed(2)+' </h2>');
 	 //} else {
 	//	$(".infobox").html(hld.Ticker); 
 	 //}
@@ -213,4 +216,19 @@ function showData(obj, d, hld) {
 
 function hideData() {
 	 $(".infobox").hide();
+}
+
+function createColorList(totalStocks){
+	
+	var color_hash = []
+	var letters = '0123456789ABCDEF'.split('');
+    var color = '#';
+    
+    //for (var i = 0; i < 6; i++ ) {
+	    for (var j = 0; j < 6; j++ ) {
+	        color += letters[Math.round(Math.random() * 15)];
+	    }
+	  //  color_hash.push(color);
+	//}
+    return color;
 }
