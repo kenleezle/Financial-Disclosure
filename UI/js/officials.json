@@ -9,6 +9,23 @@
       "dataSetId":"N00027500"
     },    
 	{
+      "displayName":"Eastwood, Clint",
+      "dataSetId":"Eastwood"
+    },    
+	{
+      "displayName":"Nelson, Matt",
+      "dataSetId":"MattNelson"
+    }, {
+      "displayName":"McCain, John",
+      "dataSetId":"N00006424"
+    },           {
+      "displayName":"Kirk, Mark",
+      "dataSetId":"N00012539"
+    },       {
+      "displayName":"Cornyn, John",
+      "dataSetId":"N00024852"
+    },    
+	{
       "displayName":"Abercrombie, Neil",
       "dataSetId":"N00007665"
     },    {
@@ -548,10 +565,7 @@
     },    {
       "displayName":"Corker, Bob",
       "dataSetId":"N00027441"
-    },    {
-      "displayName":"Cornyn, John",
-      "dataSetId":"N00024852"
-    },    {
+    }, {
       "displayName":"Corzine, Jon S",
       "dataSetId":"N00009945"
     },    {
@@ -1400,10 +1414,7 @@
     },    {
       "displayName":"Kinzinger, Adam",
       "dataSetId":"N00030667"
-    },    {
-      "displayName":"Kirk, Mark",
-      "dataSetId":"N00012539"
-    },    {
+    },{
       "displayName":"Kirk, Paul",
       "dataSetId":"N00031303"
     },    {
@@ -1644,9 +1655,6 @@
     },    {
       "displayName":"Matsui, Doris",
       "dataSetId":"N00027459"
-    },    {
-      "displayName":"McCain, John",
-      "dataSetId":"N00006424"
     },    {
       "displayName":"McCarthy, Carolyn",
       "dataSetId":"N00001148"
