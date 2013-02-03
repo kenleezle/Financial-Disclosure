@@ -11,12 +11,11 @@ STDIN.readlines.each { | line |
   (date,value) = line.split(",")
   if value.nil? then
   	change = last_change
-	value = last_value
+    value = last_value
   else
-    value = value.to_f + 200
   	change = (value.to_f-benchmark)/benchmark
-	last_change = change
-	last_value = value
+    last_change = change
+    last_value = value
   end
   output["days"].push({:date=>date,:change=>change})
 }

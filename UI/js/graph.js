@@ -48,7 +48,7 @@ function initGraph() {
   var minsp = -1;
   
   var startTime = new Date("2006-01-01");
-  var endTime = new Date("2010-12-31");
+  var endTime = new Date("2012-12-31");
   var timeStep = 86400000;//3.15569e10;
   
 	
