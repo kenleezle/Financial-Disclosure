@@ -24,6 +24,8 @@ var Official = function (set) {
         $(comparelist[i].checkbox).removeAttr('checked');
       }
       console.log("Congressman with Id:"+event.currentTarget.value+" selected.");
+      console.log("drawing graph...");
+      drawOfficial(event.currentTarget.value);
     })
   $('#officiallist').append(listitem);
 }

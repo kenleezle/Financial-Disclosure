@@ -13,11 +13,12 @@ STDIN.readlines.each { | line |
   	change = last_change
 	value = last_value
   else
+    value = value.to_f + 200
   	change = (value.to_f-benchmark)/benchmark
 	last_change = change
 	last_value = value
   end
-  output["days"].push({:date=>date,:change=>change,:value=>value})
+  output["days"].push({:date=>date,:change=>change})
 }
 
 puts JSON.generate(output,{:indent => "  ",:object_nl => "\n"})
