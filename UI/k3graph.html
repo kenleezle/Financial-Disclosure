@@ -1,12 +1,42 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Line graph over time with multiple data points using SVG and d3.js</title>
-		<script src="http://d3js.org/d3.v3.min.js"></script>
+  <head>
+    <title>Financial Disclosure Project</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
 		<link href="css/graph.css" rel="stylesheet" media="screen">
-	</head>
-	<body>
-	<div id="graph" class="aGraph" style="position:absolute;top:0px;left:0; float:left;"></div>
-	<script src="js/graph.js"></script>
-	<script src="js/k3.js"></script>
-	</body>
+  </head>
+  <body>
+    <h1>Financial Disclosure Project</h1>
+    <div class='container'>
+      <div class='row'>
+        <div class='span8'>
+          //visual
+        <div id="graph" class="aGraph" style="position:absolute;top:0px;left:0; float:left;"></div>
+        </div>
+        <div class='span4'>
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#officials" data-toggle="tab">Officials</a></li>
+            <li><a href="#compare" data-toggle="tab">Compare</a>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="officials" style="padding-left: 4px; overflow: scroll; height: 400px;">
+              <ul class="unstyled" id="officiallist">
+              </ul>
+            </div>
+            <div class="tab-pane" id="compare">
+              <ul class="unstyled" id="comparelist">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap-tab.js"></script>
+    <script src='js/tools.js'></script>
+    <script src="js/graph.js"></script>
+    <script src="js/k3.js"></script>
+  </body>
 </html>

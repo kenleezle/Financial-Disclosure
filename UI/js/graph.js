@@ -3,8 +3,10 @@ function drawGraph() {
 		
 		// define dimensions of graph
 		var m = [80, 80, 80, 80]; // margins
-		var w = window.innerWidth - m[1] - m[3];	// width
-		var h = window.innerHeight - m[0] - m[2]; // height
+		// var w = window.innerWidth - m[1] - m[3];	// width
+		// var h = window.innerHeight - m[0] - m[2]; // height
+    var w = 700;
+    var h = 400;
 			
 		/* 
 		 * sample data to plot over time
