@@ -1,0 +1,1257 @@
+{
+  "ID":345,
+  "Name":"Kenny Ewell Marchant",
+  "Position":"Senator",
+  "Holdings":[    {
+      "CompanyName":null,
+      "Ticker":"AMTD",
+      "Buy":{
+        "Date":"01/29/2010",
+        "ValueRange":null
+      },
+      "Sell":{
+        "Date":"05/18/2010",
+        "ValueRange":null
+      },
+      "DailyPercentageChanges":[        {
+          "Date":"02/01/2010",
+          "PercentageChange":-0.14155895334174015
+        },        {
+          "Date":"02/02/2010",
+          "PercentageChange":-0.17457215862385303
+        },        {
+          "Date":"02/03/2010",
+          "PercentageChange":-0.19558056198519766
+        },        {
+          "Date":"02/04/2010",
+          "PercentageChange":-0.22739328707523365
+        },        {
+          "Date":"02/05/2010",
+          "PercentageChange":-0.21298752477031166
+        },        {
+          "Date":"02/08/2010",
+          "PercentageChange":-0.2231916064029647
+        },        {
+          "Date":"02/09/2010",
+          "PercentageChange":-0.23339568803561778
+        },        {
+          "Date":"02/10/2010",
+          "PercentageChange":-0.20698512380992742
+        },        {
+          "Date":"02/11/2010",
+          "PercentageChange":-0.21178704457823486
+        },        {
+          "Date":"02/12/2010",
+          "PercentageChange":-0.20998632429011954
+        },        {
+          "Date":"02/16/2010",
+          "PercentageChange":-0.19197912140896703
+        },        {
+          "Date":"02/17/2010",
+          "PercentageChange":-0.18837768083273662
+        },        {
+          "Date":"02/18/2010",
+          "PercentageChange":-0.17757335910404515
+        },        {
+          "Date":"02/19/2010",
+          "PercentageChange":-0.1529635151664701
+        },        {
+          "Date":"02/22/2010",
+          "PercentageChange":-0.17697311900800666
+        },        {
+          "Date":"02/23/2010",
+          "PercentageChange":-0.18837768083273662
+        },        {
+          "Date":"02/24/2010",
+          "PercentageChange":-0.1853764803525445
+        },        {
+          "Date":"02/25/2010",
+          "PercentageChange":-0.17457215862385303
+        },        {
+          "Date":"02/26/2010",
+          "PercentageChange":-0.1829755199683909
+        },        {
+          "Date":"03/01/2010",
+          "PercentageChange":-0.18837768083273662
+        },        {
+          "Date":"03/02/2010",
+          "PercentageChange":-0.18957816102481342
+        },        {
+          "Date":"03/03/2010",
+          "PercentageChange":-0.19257936150500554
+        },        {
+          "Date":"03/04/2010",
+          "PercentageChange":-0.19738128227331275
+        },        {
+          "Date":"03/05/2010",
+          "PercentageChange":-0.1493620745902397
+        },        {
+          "Date":"03/08/2010",
+          "PercentageChange":-0.12595271084474147
+        },        {
+          "Date":"03/09/2010",
+          "PercentageChange":-0.10614478767547365
+        },        {
+          "Date":"03/10/2010",
+          "PercentageChange":-0.10434406738735855
+        },        {
+          "Date":"03/11/2010",
+          "PercentageChange":-0.10074262681112793
+        },        {
+          "Date":"03/12/2010",
+          "PercentageChange":-0.10674502777151217
+        },        {
+          "Date":"03/15/2010",
+          "PercentageChange":-0.10974622825170428
+        },        {
+          "Date":"03/16/2010",
+          "PercentageChange":-0.10974622825170428
+        },        {
+          "Date":"03/17/2010",
+          "PercentageChange":-0.11034646834774259
+        },        {
+          "Date":"03/18/2010",
+          "PercentageChange":-0.11754934950020363
+        },        {
+          "Date":"03/19/2010",
+          "PercentageChange":-0.1343560721892793
+        },        {
+          "Date":"03/22/2010",
+          "PercentageChange":-0.12175103017247255
+        },        {
+          "Date":"03/23/2010",
+          "PercentageChange":-0.12295151036454935
+        },        {
+          "Date":"03/24/2010",
+          "PercentageChange":-0.11454814902001151
+        },        {
+          "Date":"03/25/2010",
+          "PercentageChange":-0.08993830508243647
+        },        {
+          "Date":"03/26/2010",
+          "PercentageChange":-0.08933806498639817
+        },        {
+          "Date":"03/29/2010",
+          "PercentageChange":-0.09774142633093602
+        },        {
+          "Date":"03/30/2010",
+          "PercentageChange":-0.0779335031616682
+        },        {
+          "Date":"03/31/2010",
+          "PercentageChange":-0.0947402258507439
+        },        {
+          "Date":"04/01/2010",
+          "PercentageChange":-0.08273542392997564
+        },        {
+          "Date":"04/05/2010",
+          "PercentageChange":-0.06953014181713035
+        },        {
+          "Date":"04/06/2010",
+          "PercentageChange":-0.04432005778351701
+        },        {
+          "Date":"04/07/2010",
+          "PercentageChange":-0.030514535574633433
+        },        {
+          "Date":"04/08/2010",
+          "PercentageChange":-0.03291549595878704
+        },        {
+          "Date":"04/09/2010",
+          "PercentageChange":-0.02511237471028771
+        },        {
+          "Date":"04/12/2010",
+          "PercentageChange":-0.040718617207286395
+        },        {
+          "Date":"04/13/2010",
+          "PercentageChange":-0.03711717663105596
+        },        {
+          "Date":"04/14/2010",
+          "PercentageChange":-0.031715015766710236
+        },        {
+          "Date":"04/15/2010",
+          "PercentageChange":-0.019109973749903475
+        },        {
+          "Date":"04/16/2010",
+          "PercentageChange":-0.03591669643897916
+        },        {
+          "Date":"04/19/2010",
+          "PercentageChange":-0.03831765682313279
+        },        {
+          "Date":"04/20/2010",
+          "PercentageChange":-0.031114775670671724
+        },        {
+          "Date":"04/21/2010",
+          "PercentageChange":-0.014308052981596237
+        },        {
+          "Date":"04/22/2010",
+          "PercentageChange":-0.022711414326134105
+        },        {
+          "Date":"04/23/2010",
+          "PercentageChange":-0.018509733653865185
+        },        {
+          "Date":"04/26/2010",
+          "PercentageChange":-0.02151093413405708
+        },        {
+          "Date":"04/27/2010",
+          "PercentageChange":-0.07133086210524567
+        },        {
+          "Date":"04/28/2010",
+          "PercentageChange":-0.05452413941616997
+        },        {
+          "Date":"04/29/2010",
+          "PercentageChange":-0.02151093413405708
+        },        {
+          "Date":"04/30/2010",
+          "PercentageChange":-0.0419190973993632
+        },        {
+          "Date":"05/03/2010",
+          "PercentageChange":-0.01730925346178816
+        },        {
+          "Date":"05/04/2010",
+          "PercentageChange":-0.04612077807163212
+        },        {
+          "Date":"05/05/2010",
+          "PercentageChange":-0.05872582008843889
+        },        {
+          "Date":"05/06/2010",
+          "PercentageChange":-0.1127474287318964
+        },        {
+          "Date":"05/07/2010",
+          "PercentageChange":-0.13735727266947123
+        },        {
+          "Date":"05/10/2010",
+          "PercentageChange":-0.09053854517847497
+        },        {
+          "Date":"05/11/2010",
+          "PercentageChange":-0.0959407060428207
+        },        {
+          "Date":"05/12/2010",
+          "PercentageChange":-0.10494430748339685
+        },        {
+          "Date":"05/13/2010",
+          "PercentageChange":-0.11454814902001151
+        },        {
+          "Date":"05/14/2010",
+          "PercentageChange":-0.13735727266947123
+        },        {
+          "Date":"05/17/2010",
+          "PercentageChange":-0.12235127026851084
+        },        {
+          "Date":"05/18/2010",
+          "PercentageChange":-0.1355565523813561
+        }]
+    },    {
+      "CompanyName":null,
+      "Ticker":"BA",
+      "Buy":{
+        "Date":"01/31/2010",
+        "ValueRange":null
+      },
+      "Sell":{
+        "Date":"02/16/2011",
+        "ValueRange":null
+      },
+      "DailyPercentageChanges":[        {
+          "Date":"02/02/2010",
+          "PercentageChange":-0.130422446406053
+        },        {
+          "Date":"02/03/2010",
+          "PercentageChange":-0.13146828918102252
+        },        {
+          "Date":"02/04/2010",
+          "PercentageChange":-0.16632971501333907
+        },        {
+          "Date":"02/05/2010",
+          "PercentageChange":-0.18132012812123516
+        },        {
+          "Date":"02/08/2010",
+          "PercentageChange":-0.18968687032099107
+        },        {
+          "Date":"02/09/2010",
+          "PercentageChange":-0.1595317369760373
+        },        {
+          "Date":"02/10/2010",
+          "PercentageChange":-0.16284357243010736
+        },        {
+          "Date":"02/11/2010",
+          "PercentageChange":-0.14558716664311075
+        },        {
+          "Date":"02/12/2010",
+          "PercentageChange":-0.16092619400932995
+        },        {
+          "Date":"02/16/2010",
+          "PercentageChange":-0.13478012463509254
+        },        {
+          "Date":"02/17/2010",
+          "PercentageChange":-0.12554184678952865
+        },        {
+          "Date":"02/18/2010",
+          "PercentageChange":-0.10811113387337037
+        },        {
+          "Date":"02/19/2010",
+          "PercentageChange":-0.09660686334870597
+        },        {
+          "Date":"02/22/2010",
+          "PercentageChange":-0.09050611382805054
+        },        {
+          "Date":"02/23/2010",
+          "PercentageChange":-0.11002851229414777
+        },        {
+          "Date":"02/24/2010",
+          "PercentageChange":-0.09852424176948338
+        },        {
+          "Date":"02/25/2010",
+          "PercentageChange":-0.1084597481316936
+        },        {
+          "Date":"02/26/2010",
+          "PercentageChange":-0.1037534556443308
+        },        {
+          "Date":"03/01/2010",
+          "PercentageChange":-0.0899831924405658
+        },        {
+          "Date":"03/02/2010",
+          "PercentageChange":-0.08283660014494096
+        },        {
+          "Date":"03/03/2010",
+          "PercentageChange":-0.08266229301577929
+        },        {
+          "Date":"03/04/2010",
+          "PercentageChange":-0.06470865871213637
+        },        {
+          "Date":"03/05/2010",
+          "PercentageChange":-0.025838168909103357
+        },        {
+          "Date":"03/08/2010",
+          "PercentageChange":-0.03716813230460621
+        },        {
+          "Date":"03/09/2010",
+          "PercentageChange":-0.028104161588203974
+        },        {
+          "Date":"03/10/2010",
+          "PercentageChange":0.00815172127740521
+        },        {
+          "Date":"03/11/2010",
+          "PercentageChange":0.009023256923213069
+        },        {
+          "Date":"03/12/2010",
+          "PercentageChange":0.005188500081658276
+        },        {
+          "Date":"03/15/2010",
+          "PercentageChange":-0.0019580922139665613
+        },        {
+          "Date":"03/16/2010",
+          "PercentageChange":-0.012939441351146191
+        },        {
+          "Date":"03/17/2010",
+          "PercentageChange":-0.0021323993431282273
+        },        {
+          "Date":"03/18/2010",
+          "PercentageChange":0.022096291610331775
+        },        {
+          "Date":"03/19/2010",
+          "PercentageChange":0.019655991802069617
+        },        {
+          "Date":"03/22/2010",
+          "PercentageChange":0.039004083139005274
+        },        {
+          "Date":"03/23/2010",
+          "PercentageChange":0.04353606849720651
+        },        {
+          "Date":"03/24/2010",
+          "PercentageChange":0.045802061176307
+        },        {
+          "Date":"03/25/2010",
+          "PercentageChange":0.04859097524289252
+        },        {
+          "Date":"03/26/2010",
+          "PercentageChange":0.05015973940534657
+        },        {
+          "Date":"03/29/2010",
+          "PercentageChange":0.07491135174629135
+        },        {
+          "Date":"03/30/2010",
+          "PercentageChange":0.06549876677156602
+        },        {
+          "Date":"03/31/2010",
+          "PercentageChange":0.05050835366366993
+        },        {
+          "Date":"04/01/2010",
+          "PercentageChange":0.05678341031348688
+        },        {
+          "Date":"04/05/2010",
+          "PercentageChange":0.04127007581810602
+        },        {
+          "Date":"04/06/2010",
+          "PercentageChange":0.046499289692953444
+        },        {
+          "Date":"04/07/2010",
+          "PercentageChange":0.042141611463913875
+        },        {
+          "Date":"04/08/2010",
+          "PercentageChange":0.04510483265966081
+        },        {
+          "Date":"04/09/2010",
+          "PercentageChange":0.0473708253387613
+        },        {
+          "Date":"04/12/2010",
+          "PercentageChange":0.03917839026816694
+        },        {
+          "Date":"04/13/2010",
+          "PercentageChange":0.027325505485179452
+        },        {
+          "Date":"04/14/2010",
+          "PercentageChange":0.03569224768493523
+        },        {
+          "Date":"04/15/2010",
+          "PercentageChange":0.04196730433475221
+        },        {
+          "Date":"04/16/2010",
+          "PercentageChange":0.020876141706200807
+        },        {
+          "Date":"04/19/2010",
+          "PercentageChange":0.023665055772786076
+        },        {
+          "Date":"04/20/2010",
+          "PercentageChange":0.03098595519757258
+        },        {
+          "Date":"04/21/2010",
+          "PercentageChange":0.07578288739209946
+        },        {
+          "Date":"04/22/2010",
+          "PercentageChange":0.09914004269975135
+        },        {
+          "Date":"04/23/2010",
+          "PercentageChange":0.09164483614580343
+        },        {
+          "Date":"04/26/2010",
+          "PercentageChange":0.07874610858784614
+        },        {
+          "Date":"04/27/2010",
+          "PercentageChange":0.048416668113730854
+        },        {
+          "Date":"04/28/2010",
+          "PercentageChange":0.04667359682211511
+        },        {
+          "Date":"04/29/2010",
+          "PercentageChange":0.06968213787144392
+        },        {
+          "Date":"04/30/2010",
+          "PercentageChange":0.047545132467922996
+        },        {
+          "Date":"05/03/2010",
+          "PercentageChange":0.07961764423365428
+        },        {
+          "Date":"05/04/2010",
+          "PercentageChange":0.053471574859416865
+        },        {
+          "Date":"05/05/2010",
+          "PercentageChange":0.03098595519757258
+        },        {
+          "Date":"05/06/2010",
+          "PercentageChange":-0.018691576613478394
+        },        {
+          "Date":"05/07/2010",
+          "PercentageChange":-0.03925981785454527
+        },        {
+          "Date":"05/10/2010",
+          "PercentageChange":0.03098595519757258
+        },        {
+          "Date":"05/11/2010",
+          "PercentageChange":0.037783933234874306
+        },        {
+          "Date":"05/12/2010",
+          "PercentageChange":0.06166400993001123
+        },        {
+          "Date":"05/13/2010",
+          "PercentageChange":0.04336176136804484
+        },        {
+          "Date":"05/14/2010",
+          "PercentageChange":0.011637863860636921
+        },        {
+          "Date":"05/17/2010",
+          "PercentageChange":0.0093718711815364
+        },        {
+          "Date":"05/18/2010",
+          "PercentageChange":-0.022874947713356422
+        },        {
+          "Date":"05/19/2010",
+          "PercentageChange":-0.04762656005430119
+        },        {
+          "Date":"05/20/2010",
+          "PercentageChange":-0.10026731306109923
+        },        {
+          "Date":"05/21/2010",
+          "PercentageChange":-0.07481847220350812
+        },        {
+          "Date":"05/24/2010",
+          "PercentageChange":-0.09782701325283706
+        },        {
+          "Date":"05/25/2010",
+          "PercentageChange":-0.10392776277349247
+        },        {
+          "Date":"05/26/2010",
+          "PercentageChange":-0.0960839419612212
+        },        {
+          "Date":"05/27/2010",
+          "PercentageChange":-0.06540588722878268
+        },        {
+          "Date":"05/28/2010",
+          "PercentageChange":-0.08091922172416355
+        },        {
+          "Date":"06/01/2010",
+          "PercentageChange":-0.10113884870690709
+        },        {
+          "Date":"06/02/2010",
+          "PercentageChange":-0.07830461478673972
+        },        {
+          "Date":"06/03/2010",
+          "PercentageChange":-0.07882753617422449
+        },        {
+          "Date":"06/04/2010",
+          "PercentageChange":-0.1307710606643762
+        },        {
+          "Date":"06/07/2010",
+          "PercentageChange":-0.14785315932221124
+        },        {
+          "Date":"06/08/2010",
+          "PercentageChange":-0.13286274621431515
+        },        {
+          "Date":"06/09/2010",
+          "PercentageChange":-0.1215327828188123
+        },        {
+          "Date":"06/10/2010",
+          "PercentageChange":-0.08579982134068789
+        },        {
+          "Date":"06/11/2010",
+          "PercentageChange":-0.06122251612890467
+        },        {
+          "Date":"06/14/2010",
+          "PercentageChange":-0.07046079397446857
+        },        {
+          "Date":"06/15/2010",
+          "PercentageChange":-0.02688401168407288
+        },        {
+          "Date":"06/16/2010",
+          "PercentageChange":-0.034204911108859384
+        },        {
+          "Date":"06/17/2010",
+          "PercentageChange":-0.030370154267304467
+        },        {
+          "Date":"06/18/2010",
+          "PercentageChange":-0.01886588374264006
+        },        {
+          "Date":"06/21/2010",
+          "PercentageChange":-0.018691576613478394
+        },        {
+          "Date":"06/22/2010",
+          "PercentageChange":-0.046580717279331774
+        },        {
+          "Date":"06/23/2010",
+          "PercentageChange":-0.027232625942395977
+        },        {
+          "Date":"06/24/2010",
+          "PercentageChange":-0.027581240200719198
+        },        {
+          "Date":"06/25/2010",
+          "PercentageChange":-0.005618541926359688
+        },        {
+          "Date":"06/28/2010",
+          "PercentageChange":-0.02984723287981983
+        },        {
+          "Date":"06/29/2010",
+          "PercentageChange":-0.09974439167361446
+        },        {
+          "Date":"06/30/2010",
+          "PercentageChange":-0.10445068416097712
+        },        {
+          "Date":"07/01/2010",
+          "PercentageChange":-0.11246881210240994
+        },        {
+          "Date":"07/02/2010",
+          "PercentageChange":-0.1176980259772575
+        },        {
+          "Date":"07/06/2010",
+          "PercentageChange":-0.1272849180811445
+        },        {
+          "Date":"07/07/2010",
+          "PercentageChange":-0.09538671344457489
+        },        {
+          "Date":"07/08/2010",
+          "PercentageChange":-0.07202955813692274
+        },        {
+          "Date":"07/09/2010",
+          "PercentageChange":-0.07307540091189228
+        },        {
+          "Date":"07/12/2010",
+          "PercentageChange":-0.07830461478673972
+        },        {
+          "Date":"07/13/2010",
+          "PercentageChange":-0.07691015775344709
+        },        {
+          "Date":"07/14/2010",
+          "PercentageChange":-0.07168094387859965
+        },        {
+          "Date":"07/15/2010",
+          "PercentageChange":-0.07778169339925507
+        },        {
+          "Date":"07/16/2010",
+          "PercentageChange":-0.11839525449390381
+        },        {
+          "Date":"07/19/2010",
+          "PercentageChange":-0.09747839899451384
+        },        {
+          "Date":"07/20/2010",
+          "PercentageChange":-0.08597412846984945
+        },        {
+          "Date":"07/21/2010",
+          "PercentageChange":-0.09747839899451384
+        },        {
+          "Date":"07/22/2010",
+          "PercentageChange":-0.04117719627532268
+        },        {
+          "Date":"07/23/2010",
+          "PercentageChange":-0.019388805130124837
+        },        {
+          "Date":"07/26/2010",
+          "PercentageChange":-0.00439839202222872
+        },        {
+          "Date":"07/27/2010",
+          "PercentageChange":-0.008058841734621847
+        },        {
+          "Date":"07/28/2010",
+          "PercentageChange":-0.02949861862149661
+        },        {
+          "Date":"07/29/2010",
+          "PercentageChange":-0.03106738278395091
+        },        {
+          "Date":"07/30/2010",
+          "PercentageChange":-0.015902662546893126
+        },        {
+          "Date":"08/02/2010",
+          "PercentageChange":0.009546178310697845
+        },        {
+          "Date":"08/03/2010",
+          "PercentageChange":0.006931571373274242
+        },        {
+          "Date":"08/04/2010",
+          "PercentageChange":0.009197564052374735
+        },        {
+          "Date":"08/05/2010",
+          "PercentageChange":0.0003079004651339312
+        },        {
+          "Date":"08/06/2010",
+          "PercentageChange":0.000133593335972515
+        },        {
+          "Date":"08/09/2010",
+          "PercentageChange":0.004839885823335166
+        },        {
+          "Date":"08/10/2010",
+          "PercentageChange":-0.0012608636973201193
+        },        {
+          "Date":"08/11/2010",
+          "PercentageChange":-0.0511127026375329
+        },        {
+          "Date":"08/12/2010",
+          "PercentageChange":-0.06592880861626745
+        },        {
+          "Date":"08/13/2010",
+          "PercentageChange":-0.06366281593716683
+        },        {
+          "Date":"08/16/2010",
+          "PercentageChange":-0.07098371536195333
+        },        {
+          "Date":"08/17/2010",
+          "PercentageChange":-0.04466333885855425
+        },        {
+          "Date":"08/18/2010",
+          "PercentageChange":-0.04448903172939271
+        },        {
+          "Date":"08/19/2010",
+          "PercentageChange":-0.06732326564956008
+        },        {
+          "Date":"08/20/2010",
+          "PercentageChange":-0.06767187990788318
+        },        {
+          "Date":"08/23/2010",
+          "PercentageChange":-0.08911165679475792
+        },        {
+          "Date":"08/24/2010",
+          "PercentageChange":-0.12833076085611403
+        },        {
+          "Date":"08/25/2010",
+          "PercentageChange":-0.1311196749226993
+        },        {
+          "Date":"08/26/2010",
+          "PercentageChange":-0.1218813970771354
+        },        {
+          "Date":"08/27/2010",
+          "PercentageChange":-0.09137764947385842
+        },        {
+          "Date":"08/30/2010",
+          "PercentageChange":-0.10898266951917836
+        },        {
+          "Date":"08/31/2010",
+          "PercentageChange":-0.125018925402044
+        },        {
+          "Date":"09/01/2010",
+          "PercentageChange":-0.10584514119426988
+        },        {
+          "Date":"09/02/2010",
+          "PercentageChange":-0.08754289263230361
+        },        {
+          "Date":"09/03/2010",
+          "PercentageChange":-0.06697465139123686
+        },        {
+          "Date":"09/07/2010",
+          "PercentageChange":-0.08719427837398053
+        },        {
+          "Date":"09/08/2010",
+          "PercentageChange":-0.06924064407033748
+        },        {
+          "Date":"09/09/2010",
+          "PercentageChange":-0.0868456641156573
+        },        {
+          "Date":"09/10/2010",
+          "PercentageChange":-0.08022199320751724
+        },        {
+          "Date":"09/13/2010",
+          "PercentageChange":-0.07446985794518492
+        },        {
+          "Date":"09/14/2010",
+          "PercentageChange":-0.0980013203819986
+        },        {
+          "Date":"09/15/2010",
+          "PercentageChange":-0.09852424176948338
+        },        {
+          "Date":"09/16/2010",
+          "PercentageChange":-0.10096454157774554
+        },        {
+          "Date":"09/17/2010",
+          "PercentageChange":-0.09486379205709011
+        },        {
+          "Date":"09/20/2010",
+          "PercentageChange":-0.08213937162829464
+        },        {
+          "Date":"09/21/2010",
+          "PercentageChange":-0.0737726294285386
+        },        {
+          "Date":"09/22/2010",
+          "PercentageChange":-0.07917615043254769
+        },        {
+          "Date":"09/23/2010",
+          "PercentageChange":-0.09991869880277601
+        },        {
+          "Date":"09/24/2010",
+          "PercentageChange":-0.06767187990788318
+        },        {
+          "Date":"09/27/2010",
+          "PercentageChange":-0.07935045756170925
+        },        {
+          "Date":"09/28/2010",
+          "PercentageChange":-0.06889202981201427
+        },        {
+          "Date":"09/29/2010",
+          "PercentageChange":-0.04501195311687747
+        },        {
+          "Date":"09/30/2010",
+          "PercentageChange":-0.03559936814215202
+        },        {
+          "Date":"10/01/2010",
+          "PercentageChange":-0.03089307565478923
+        },        {
+          "Date":"10/04/2010",
+          "PercentageChange":-0.039085510725383604
+        },        {
+          "Date":"10/05/2010",
+          "PercentageChange":-0.001609477955643479
+        },        {
+          "Date":"10/06/2010",
+          "PercentageChange":-0.0019580922139665613
+        },        {
+          "Date":"10/07/2010",
+          "PercentageChange":-0.0038754706347439716
+        },        {
+          "Date":"10/08/2010",
+          "PercentageChange":0.008848949794051653
+        },        {
+          "Date":"10/11/2010",
+          "PercentageChange":0.021399063093685583
+        },        {
+          "Date":"10/12/2010",
+          "PercentageChange":0.025233819935240376
+        },        {
+          "Date":"10/13/2010",
+          "PercentageChange":0.045802061176307
+        },        {
+          "Date":"10/14/2010",
+          "PercentageChange":0.044058989884691285
+        },        {
+          "Date":"10/15/2010",
+          "PercentageChange":0.023316441514462993
+        },        {
+          "Date":"10/18/2010",
+          "PercentageChange":0.025408127064402042
+        },        {
+          "Date":"10/19/2010",
+          "PercentageChange":0.005885728598304718
+        },        {
+          "Date":"10/20/2010",
+          "PercentageChange":0.044058989884691285
+        },        {
+          "Date":"10/21/2010",
+          "PercentageChange":0.04632498256379178
+        },        {
+          "Date":"10/22/2010",
+          "PercentageChange":0.04231591859307557
+        },        {
+          "Date":"10/25/2010",
+          "PercentageChange":0.04893958950121563
+        },        {
+          "Date":"10/26/2010",
+          "PercentageChange":0.04301314710972176
+        },        {
+          "Date":"10/27/2010",
+          "PercentageChange":0.03569224768493523
+        },        {
+          "Date":"10/28/2010",
+          "PercentageChange":0.042490225722236985
+        },        {
+          "Date":"10/29/2010",
+          "PercentageChange":0.0320317979725421
+        },        {
+          "Date":"11/01/2010",
+          "PercentageChange":0.02941719103511828
+        },        {
+          "Date":"11/02/2010",
+          "PercentageChange":0.017912920510453872
+        },        {
+          "Date":"11/03/2010",
+          "PercentageChange":0.010940635343990479
+        },        {
+          "Date":"11/04/2010",
+          "PercentageChange":0.04266453285139865
+        },        {
+          "Date":"11/05/2010",
+          "PercentageChange":0.04963681801786207
+        },        {
+          "Date":"11/08/2010",
+          "PercentageChange":0.0320317979725421
+        },        {
+          "Date":"11/09/2010",
+          "PercentageChange":0.015995542089676462
+        },        {
+          "Date":"11/10/2010",
+          "PercentageChange":-0.020086033646771154
+        },        {
+          "Date":"11/11/2010",
+          "PercentageChange":-0.048323788570947504
+        },        {
+          "Date":"11/12/2010",
+          "PercentageChange":-0.08632274272817253
+        },        {
+          "Date":"11/15/2010",
+          "PercentageChange":-0.07760738627009339
+        },        {
+          "Date":"11/16/2010",
+          "PercentageChange":-0.09137764947385842
+        },        {
+          "Date":"11/17/2010",
+          "PercentageChange":-0.0960839419612212
+        },        {
+          "Date":"11/18/2010",
+          "PercentageChange":-0.061048208999743114
+        },        {
+          "Date":"11/19/2010",
+          "PercentageChange":-0.07795600052841661
+        },        {
+          "Date":"11/22/2010",
+          "PercentageChange":-0.07063510110363011
+        },        {
+          "Date":"11/23/2010",
+          "PercentageChange":-0.07778169339925507
+        },        {
+          "Date":"11/24/2010",
+          "PercentageChange":-0.04780086718346274
+        },        {
+          "Date":"11/26/2010",
+          "PercentageChange":-0.057910680674834625
+        },        {
+          "Date":"11/29/2010",
+          "PercentageChange":-0.06523158009962102
+        },        {
+          "Date":"11/30/2010",
+          "PercentageChange":-0.07499277933266968
+        },        {
+          "Date":"12/01/2010",
+          "PercentageChange":-0.0425716533086153
+        },        {
+          "Date":"12/02/2010",
+          "PercentageChange":-0.028104161588203974
+        },        {
+          "Date":"12/03/2010",
+          "PercentageChange":-0.028975697234011832
+        },        {
+          "Date":"12/06/2010",
+          "PercentageChange":-0.028104161588203974
+        },        {
+          "Date":"12/07/2010",
+          "PercentageChange":-0.03403060397969772
+        },        {
+          "Date":"12/08/2010",
+          "PercentageChange":-0.05163562402501766
+        },        {
+          "Date":"12/09/2010",
+          "PercentageChange":-0.061048208999743114
+        },        {
+          "Date":"12/10/2010",
+          "PercentageChange":-0.06854341555369117
+        },        {
+          "Date":"12/13/2010",
+          "PercentageChange":-0.07464416507434658
+        },        {
+          "Date":"12/14/2010",
+          "PercentageChange":-0.06296558742052051
+        },        {
+          "Date":"12/15/2010",
+          "PercentageChange":-0.06714895852039854
+        },        {
+          "Date":"12/16/2010",
+          "PercentageChange":-0.0645343515829747
+        },        {
+          "Date":"12/17/2010",
+          "PercentageChange":-0.05407592383327983
+        },        {
+          "Date":"12/20/2010",
+          "PercentageChange":-0.08335952153242572
+        },        {
+          "Date":"12/21/2010",
+          "PercentageChange":-0.0680204941662064
+        },        {
+          "Date":"12/22/2010",
+          "PercentageChange":-0.061048208999743114
+        },        {
+          "Date":"12/23/2010",
+          "PercentageChange":-0.053553002445795056
+        },        {
+          "Date":"12/27/2010",
+          "PercentageChange":-0.05860790919148094
+        },        {
+          "Date":"12/28/2010",
+          "PercentageChange":-0.0568648378998651
+        },        {
+          "Date":"12/29/2010",
+          "PercentageChange":-0.05372730957495661
+        },        {
+          "Date":"12/30/2010",
+          "PercentageChange":-0.05442453809160293
+        },        {
+          "Date":"12/31/2010",
+          "PercentageChange":-0.0502411669917249
+        },        {
+          "Date":"01/03/2011",
+          "PercentageChange":-0.03124168991311245
+        },        {
+          "Date":"01/04/2011",
+          "PercentageChange":-0.02235202632587177
+        },        {
+          "Date":"01/05/2011",
+          "PercentageChange":-0.013288055609469537
+        },        {
+          "Date":"01/06/2011",
+          "PercentageChange":0.008674642664889959
+        },        {
+          "Date":"01/07/2011",
+          "PercentageChange":0.018261534768776982
+        },        {
+          "Date":"01/10/2011",
+          "PercentageChange":0.013380935152252638
+        },        {
+          "Date":"01/11/2011",
+          "PercentageChange":0.011289249602313811
+        },        {
+          "Date":"01/12/2011",
+          "PercentageChange":0.03098595519757258
+        },        {
+          "Date":"01/13/2011",
+          "PercentageChange":0.025756741322725152
+        },        {
+          "Date":"01/14/2011",
+          "PercentageChange":0.02976580529344161
+        },        {
+          "Date":"01/18/2011",
+          "PercentageChange":0.06950783074228226
+        },        {
+          "Date":"01/19/2011",
+          "PercentageChange":0.05730633170097166
+        },        {
+          "Date":"01/20/2011",
+          "PercentageChange":0.047196518209599886
+        },        {
+          "Date":"01/21/2011",
+          "PercentageChange":0.05643479605516355
+        },        {
+          "Date":"01/24/2011",
+          "PercentageChange":0.07386550897132182
+        },        {
+          "Date":"01/25/2011",
+          "PercentageChange":0.06567307390072746
+        },        {
+          "Date":"01/26/2011",
+          "PercentageChange":0.028894269647633503
+        },        {
+          "Date":"01/27/2011",
+          "PercentageChange":0.037783933234874306
+        },        {
+          "Date":"01/28/2011",
+          "PercentageChange":0.015821234960514796
+        },        {
+          "Date":"01/31/2011",
+          "PercentageChange":0.019830298931231283
+        },        {
+          "Date":"02/01/2011",
+          "PercentageChange":0.03342625500583474
+        },        {
+          "Date":"02/02/2011",
+          "PercentageChange":0.04510483265966081
+        },        {
+          "Date":"02/03/2011",
+          "PercentageChange":0.04475621840133773
+        },        {
+          "Date":"02/04/2011",
+          "PercentageChange":0.05137988930947779
+        },        {
+          "Date":"02/07/2011",
+          "PercentageChange":0.0606181671550417
+        },        {
+          "Date":"02/08/2011",
+          "PercentageChange":0.07351689471299871
+        },        {
+          "Date":"02/09/2011",
+          "PercentageChange":0.07926902997533092
+        },        {
+          "Date":"02/10/2011",
+          "PercentageChange":0.0797919513628157
+        },        {
+          "Date":"02/11/2011",
+          "PercentageChange":0.07107659490473656
+        },        {
+          "Date":"02/14/2011",
+          "PercentageChange":0.07299397332551397
+        },        {
+          "Date":"02/15/2011",
+          "PercentageChange":0.05870078873426429
+        },        {
+          "Date":"02/16/2011",
+          "PercentageChange":0.07665442303790734
+        }]
+    },    {
+      "CompanyName":null,
+      "Ticker":"WFC",
+      "Buy":{
+        "Date":"02/01/2011",
+        "ValueRange":null
+      },
+      "Sell":{
+        "Date":"05/06/2011",
+        "ValueRange":null
+      },
+      "DailyPercentageChanges":[        {
+          "Date":"02/02/2011",
+          "PercentageChange":0.02776639344262297
+        },        {
+          "Date":"02/03/2011",
+          "PercentageChange":0.028710086427838483
+        },        {
+          "Date":"02/04/2011",
+          "PercentageChange":0.02902465075624369
+        },        {
+          "Date":"02/07/2011",
+          "PercentageChange":0.04569656016171703
+        },        {
+          "Date":"02/08/2011",
+          "PercentageChange":0.06897432046369885
+        },        {
+          "Date":"02/09/2011",
+          "PercentageChange":0.040034402250424185
+        },        {
+          "Date":"02/10/2011",
+          "PercentageChange":0.03625963030956236
+        },        {
+          "Date":"02/11/2011",
+          "PercentageChange":0.05890826195473376
+        },        {
+          "Date":"02/14/2011",
+          "PercentageChange":0.06236846956719049
+        },        {
+          "Date":"02/15/2011",
+          "PercentageChange":0.056391747327492546
+        },        {
+          "Date":"02/16/2011",
+          "PercentageChange":0.04506743150490673
+        },        {
+          "Date":"02/17/2011",
+          "PercentageChange":0.03468680866753654
+        },        {
+          "Date":"02/18/2011",
+          "PercentageChange":0.025249878815381755
+        },        {
+          "Date":"02/22/2011",
+          "PercentageChange":-0.012497840593237289
+        },        {
+          "Date":"02/23/2011",
+          "PercentageChange":-0.00872306865237546
+        },        {
+          "Date":"02/24/2011",
+          "PercentageChange":-0.010610454622806374
+        },        {
+          "Date":"02/25/2011",
+          "PercentageChange":0.018329463590468296
+        },        {
+          "Date":"02/28/2011",
+          "PercentageChange":0.013925562992796056
+        },        {
+          "Date":"03/01/2011",
+          "PercentageChange":-0.004319168054703219
+        },        {
+          "Date":"03/02/2011",
+          "PercentageChange":-0.007150247010349643
+        },        {
+          "Date":"03/03/2011",
+          "PercentageChange":0.01864402791887339
+        },        {
+          "Date":"03/04/2011",
+          "PercentageChange":0.003544940155425752
+        },        {
+          "Date":"03/07/2011",
+          "PercentageChange":-0.0021172177558670957
+        },        {
+          "Date":"03/08/2011",
+          "PercentageChange":0.021475106874519815
+        },        {
+          "Date":"03/09/2011",
+          "PercentageChange":0.0302829080698643
+        },        {
+          "Date":"03/10/2011",
+          "PercentageChange":0.007948840753097992
+        },        {
+          "Date":"03/11/2011",
+          "PercentageChange":0.01770033493365788
+        },        {
+          "Date":"03/14/2011",
+          "PercentageChange":0.0092070980667186
+        },        {
+          "Date":"03/15/2011",
+          "PercentageChange":0.014240127321201147
+        },        {
+          "Date":"03/16/2011",
+          "PercentageChange":-0.016901741190909536
+        },        {
+          "Date":"03/17/2011",
+          "PercentageChange":-0.012812404921642498
+        },        {
+          "Date":"03/18/2011",
+          "PercentageChange":0.0010284255281845373
+        },        {
+          "Date":"03/21/2011",
+          "PercentageChange":0.0026012471702103537
+        },        {
+          "Date":"03/22/2011",
+          "PercentageChange":-0.00840850432397025
+        },        {
+          "Date":"03/23/2011",
+          "PercentageChange":-0.010295890294401165
+        },        {
+          "Date":"03/24/2011",
+          "PercentageChange":-0.005577425368323827
+        },        {
+          "Date":"03/25/2011",
+          "PercentageChange":0.006690583439477385
+        },        {
+          "Date":"03/28/2011",
+          "PercentageChange":-0.00337547506948771
+        },        {
+          "Date":"03/29/2011",
+          "PercentageChange":-0.00400460372629801
+        },        {
+          "Date":"03/30/2011",
+          "PercentageChange":0.005746890454261876
+        },        {
+          "Date":"03/31/2011",
+          "PercentageChange":-0.00022983178543607707
+        },        {
+          "Date":"04/01/2011",
+          "PercentageChange":0.010150791051934116
+        },        {
+          "Date":"04/04/2011",
+          "PercentageChange":0.0022866828418051446
+        },        {
+          "Date":"04/05/2011",
+          "PercentageChange":0.007948840753097992
+        },        {
+          "Date":"04/06/2011",
+          "PercentageChange":0.020216849560899208
+        },        {
+          "Date":"04/07/2011",
+          "PercentageChange":0.013610998664390847
+        },        {
+          "Date":"04/08/2011",
+          "PercentageChange":-0.003060910741082501
+        },        {
+          "Date":"04/11/2011",
+          "PercentageChange":-0.009666761637590865
+        },        {
+          "Date":"04/12/2011",
+          "PercentageChange":-0.009666761637590865
+        },        {
+          "Date":"04/13/2011",
+          "PercentageChange":-0.031371700297546865
+        },        {
+          "Date":"04/14/2011",
+          "PercentageChange":-0.04709991671780481
+        },        {
+          "Date":"04/15/2011",
+          "PercentageChange":-0.05496402492793377
+        },        {
+          "Date":"04/18/2011",
+          "PercentageChange":-0.06597377642211427
+        },        {
+          "Date":"04/19/2011",
+          "PercentageChange":-0.04961643134504602
+        },        {
+          "Date":"04/20/2011",
+          "PercentageChange":-0.08673502209685477
+        },        {
+          "Date":"04/21/2011",
+          "PercentageChange":-0.09554282329219924
+        },        {
+          "Date":"04/25/2011",
+          "PercentageChange":-0.09491369463538893
+        },        {
+          "Date":"04/26/2011",
+          "PercentageChange":-0.08547676478323415
+        },        {
+          "Date":"04/27/2011",
+          "PercentageChange":-0.07352332030383815
+        },        {
+          "Date":"04/28/2011",
+          "PercentageChange":-0.07352332030383815
+        },        {
+          "Date":"04/29/2011",
+          "PercentageChange":-0.07824178522991548
+        },        {
+          "Date":"05/02/2011",
+          "PercentageChange":-0.07792722090151039
+        },        {
+          "Date":"05/03/2011",
+          "PercentageChange":-0.06628834075051948
+        },        {
+          "Date":"05/04/2011",
+          "PercentageChange":-0.08484763612642385
+        },        {
+          "Date":"05/05/2011",
+          "PercentageChange":-0.10435062448754373
+        },        {
+          "Date":"05/06/2011",
+          "PercentageChange":-0.10089041687508699
+        }]
+    }]
+}

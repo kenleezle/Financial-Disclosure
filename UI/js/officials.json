@@ -8,14 +8,7 @@
       "displayName":"Klobuchar, Amy",
       "dataSetId":"N00027500"
     },    
-	{
-      "displayName":"Eastwood, Clint",
-      "dataSetId":"Eastwood"
-    },    
-	{
-      "displayName":"Nelson, Matt",
-      "dataSetId":"MattNelson"
-    }, {
+    {
       "displayName":"McCain, John",
       "dataSetId":"N00006424"
     },           {
@@ -24,6 +17,9 @@
     },       {
       "displayName":"Cornyn, John",
       "dataSetId":"N00024852"
+    },        {
+      "displayName":"Marchant, Kenny Ewell",
+      "dataSetId":"N00026710"
     },    
 	{
       "displayName":"Abercrombie, Neil",
@@ -1628,10 +1624,7 @@
     },    {
       "displayName":"Manzullo, Don",
       "dataSetId":"N00004905"
-    },    {
-      "displayName":"Marchant, Kenny Ewell",
-      "dataSetId":"N00026710"
-    },    {
+    },{
       "displayName":"Marino, Tom",
       "dataSetId":"N00031777"
     },    {
