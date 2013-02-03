@@ -1,8 +1,64 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica;
+
+}
+div{
+
 }
 
 a {
   color: #00B7FF;
 }
+
+header {
+	display: block;
+	margin-bottom:20px;
+	width: 1024px;
+	height:100px;
+	background-color: red;
+}
+
+div.container {
+	display: block;
+	float:left;
+	width:1024px;
+	height:1200px;
+	background-color: red;
+}
+
+div.row {
+	display: block;
+	float:left;
+	background-color: red;
+	width:800px;
+	height:800px;
+	background-color: red;
+}
+
+
+.aGraph {
+	display: block;
+	float:left;
+	width:770px;
+	height:770px;
+	background-color: red;
+}
+
+div.span4{
+	display: block;
+	float:left;
+	background-color: red;
+}
+
+#textContent{
+	display: block;
+	float: left;
+	margin-top: 500px;
+	position: absolute;
+	top:500px;
+	background-color: red;
+}
+
+/*style="position:absolute;top:100px;left:0; float:left;"*/

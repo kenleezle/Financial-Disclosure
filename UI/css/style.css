@@ -1,0 +1,99 @@
+body {
+  padding: 50px;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica;
+  margin: 0px;
+  padding: 0px;
+
+}
+div{
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+	display: block;
+	margin-bottom:20px;
+	width: 1024px;
+	margin: 0px;
+	padding-left: 50px;
+}
+
+header h1{
+	color:#333;
+}
+
+header h2{
+	color:#ccc;
+}
+
+div.container {
+	display: block;
+	float:left;
+	width:1324px;
+	height:auto;
+}
+
+div.row {
+	display: block;
+	float:left;
+	width:0 auto;
+	height:auto;
+	margin: 0px;
+}
+
+
+.aGraph {
+	display: block;
+	float:left;
+	
+}
+
+div.span8{
+	display: block;
+	float:left;
+	width:900px;
+	height: auto;
+	margin: 0px;
+}
+
+div.span4{
+	display: block;
+	float:right;
+	width:300px;
+	height:auto;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+#instructionContent{
+	display: block;
+	float: left;
+	width:1224px;
+	height: auto;
+	padding-left: 50px;
+	color: #666;
+	margin-bottom: 50px;
+}
+
+#instructionContent i{
+	color: #999;
+}
+
+#textContent{
+	display: block;
+	float: left;
+	width:1224px;
+	height: auto;
+	padding-left: 50px;
+	color: #666;
+	margin-bottom: 100px;
+}
+
+#textContent h3, h4,h5{
+	color: #333;
+}
+/*style="position:absolute;top:100px;left:0; float:left;"*/
