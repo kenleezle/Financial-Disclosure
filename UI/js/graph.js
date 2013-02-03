@@ -14,8 +14,11 @@ function findMin(obj){
   return Math.min.apply( Math, temp2 );
 }
 function drawOfficial(official) {
-  $(".data2").hide();
-  $(".dataNcircle").hide();
+  $("."+official).hide();
+  //$(".dataNcircle").hide();
+  d3.selectAll('path.data2').remove();
+  d3.selectAll('circle.dataNcircle').remove();
+  
   var official_json = 'js/sp_shifted_data/'+official+'.json';
   d3.json(official_json, function (err,spobj) {
     for (var i in spobj.Holdings) {
@@ -26,7 +29,7 @@ function drawOfficial(official) {
         dpc = holding.DailyPercentageChanges[j];
         data.push([dpc.Date,dpc.PercentageChange]);
       }
-      drawLine(data, graph, "data2", holding);
+      drawLine(data, graph, "data2", holding, official);
       console.log("done with "+holding.Ticker);
     }
     console.log("...done.");
@@ -94,10 +97,10 @@ function initGraph() {
  
 }
 
-function drawLine(mydata, mygraph, graphclass, myholding) {
+function drawLine(mydata, mygraph, graphclass, myholding, myofficial) {
 		/* implementation heavily influenced by http://bl.ocks.org/1166403 */
-		$(".data2").show();
-		$(".dataNcircle").show();
+		$("."+myofficial).show();
+		//$(".dataNcircle").show();
 		
 		var maxsp = findMax(mydata);
 		var minsp = findMin(mydata);
@@ -112,7 +115,7 @@ function drawLine(mydata, mygraph, graphclass, myholding) {
 			
 		mygraph.append("svg:path")
 			.attr("d", myline(mydata))
-			.attr("class", graphclass)
+			.attr("class", graphclass+" "+myofficial)
 			.on("mouseover",function(d) {
 				if(graphclass != "data1"){
 					showData(this, parseFloat(mydata[mydata.length-1][1]-mydata[0][1]), myholding);
@@ -137,7 +140,7 @@ function drawLine(mydata, mygraph, graphclass, myholding) {
 				 								}else{
 					 								return "none";
 				 								}})
-				 .attr("class", "dataNcircle")
+				 .attr("class", "dataNcircle "+myofficial)
 				 .attr("r", 4)
 				 .attr("cx", function(d,i) { if(i == 0 || i == mydata.length-1){
 				 								return x(Date.parse(d[0]));
@@ -197,9 +200,10 @@ function showData(obj, d, hld) {
 	 // now we just position the infobox roughly where our mouse is
 	 infobox.style("left", (coord[0] + 100) + "px" );
 	 infobox.style("top", (coord[1] - 175) + "px");
-	 
+	 var mycolor;
+	 if(d>0){mycolor = "green"}else{mycolor = "red"}
 	 //if(d != 0){
-	 	$(".infobox").html(hld.Ticker+": "+d.toFixed(2)+" %");
+	 	$(".infobox").html('<h1>'+hld.Ticker+'</h1><h2 style="color:'+mycolor+';">'+d.toFixed(2)+' %</h2>');
 	 //} else {
 	//	$(".infobox").html(hld.Ticker); 
 	 //}
