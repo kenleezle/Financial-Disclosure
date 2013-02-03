@@ -9,19 +9,21 @@ var Official = function (set) {
 
   var radio = document.createElement('input');
   $(radio).attr('type','radio');
-  $(radio).attr('name','sets');
+  $(radio).attr('name','official');
+  $(radio).attr('value',set.dataSetId);
 
   $(radiolabel).append(radio);
   $(radiolabel).append(set.displayName);
 
   $(listitem).append(radiolabel)
 
-  $(radio).on('click', function () {
+  $(radio).on('click', function (event) {
       //clear visual
       //show officials portfolio
       for (var i = 0; i < comparelist.length; i++) {
         $(comparelist[i].checkbox).removeAttr('checked');
       }
+      console.log("Congressman with Id:"+event.currentTarget.value+" selected.");
     })
   $('#officiallist').append(listitem);
 }
