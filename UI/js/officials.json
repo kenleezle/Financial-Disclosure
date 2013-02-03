@@ -3,7 +3,12 @@
   "children":[    {
       "displayName":"Nelson, Ben",
       "dataSetId":"N00005329"
-    },    {
+    },    
+	{
+      "displayName":"Klobuchar, Amy",
+      "dataSetId":"N00027500"
+    },    
+	{
       "displayName":"Abercrombie, Neil",
       "dataSetId":"N00007665"
     },    {
@@ -1419,10 +1424,8 @@
     },    {
       "displayName":"Kline, John",
       "dataSetId":"N00004436"
-    },    {
-      "displayName":"Klobuchar, Amy",
-      "dataSetId":"N00027500"
-    },    {
+    },    
+	{
       "displayName":"Knollenberg, Joe",
       "dataSetId":"N00004045"
     },    {
