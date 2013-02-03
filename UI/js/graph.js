@@ -20,7 +20,7 @@ function drawOfficial(official) {
     for (var i in spobj.days) {
       data.push([spobj.days[i].date,spobj.days[i].change]);
     }
-    drawLine(data);
+    drawLine(data, graph, "data2");
     console.log("...done.");
   });
 }
@@ -78,58 +78,42 @@ function initGraph() {
         .attr("transform", "translate(-10,0)")
         .call(yAxisLeft);
 }
-function drawLine(lineData) {
+
+function drawLine(mydata, mygraph, graphclass) {
 		/* implementation heavily influenced by http://bl.ocks.org/1166403 */
 		
-		var newspdata=lineData;
-		console.log(newspdata);
-
-		var maxsp = findMax(newspdata);
-		var minsp = findMin(newspdata);
-		// create a line function that can convert data[] into x and y points
-		var line1 = d3.svg.line()
-			// assign the X function to plot our line as we wish
+		var maxsp = findMax(mydata);
+		var minsp = findMin(mydata);
+		
+		var myline = d3.svg.line()
 			.x(function(d,i) {
-				// verbose logging to show what's actually being done
-				//console.log('Plotting X value for data point: ' + d + ' using index: ' + i + ' to be at: ' + x(i) + ' using our xScale.');
-				// return the X coordinate where we want to plot this datapoint
-				//if(d[0] !== null){
-				//	console.log(Date.parse(d[0]));
-					return x(new Date(d[0]));
-				//}else{
-				//	return null;
-				//}
+				return x(new Date(d[0]));
 			})
 			.y(function(d) { 
-				// verbose logging to show what's actually being done
-				//console.log('Plotting Y value for data point: ' + d + ' to be at: ' + y(d) + " using our yScale.");
-				// return the Y coordinate where we want to plot this datapoint
-				//if(d[0] !== null){
-				//	console.log(parseFloat(d[1]))
-					return y(parseFloat(d[1])); // use the 1st index of data (for example, get 20 from [20,13])
-				//}else{
-				//	return null;
-				//}
+				return y(parseFloat(d[1]));
 			})
 			
-		
-      // add lines
-      // do this AFTER the axes above so that the line is above the tick-lines
-      graph.append("svg:path").attr("d", line1(newspdata)).attr("class", "data1");
-    		
-			graph
+		mygraph.append("svg:path").attr("d", myline(mydata)).attr("class", graphclass);
+    	
+    	if(graphclass != "data1"){
+			mygraph
 				 .selectAll("circleN")
-				 .data(newspdata)
+				 .data(mydata)
 				 .enter().append("circle")
-				 .attr("fill", "black")
+				 .attr("fill", function(d,i) { if(i == 0 || i == mydata.length-1){
+				 								return "black";
+				 								}else{
+					 								return "none";
+				 								}})
 				 .attr("class", "dataNcircle")
 				 .attr("r", 5)
-				 .attr("cx", function(d,i) { if(i == 0 || i == newspdata.length-1){
+				 .attr("cx", function(d,i) { if(i == 0 || i == mydata.length-1){
 				 								//console.log("This is ix = "+i+" -> "+Date.parse(d[0]));
 				 								return x(Date.parse(d[0]));
 				 								}})
-				 .attr("cy", function(d,i) { if(i == 0 || i == newspdata.length-1){
+				 .attr("cy", function(d,i) { if(i == 0 || i == mydata.length-1){
 				 								//console.log("This is iy = "+i+" -> "+parseFloat(d[1]));
 				 								return y(parseFloat(d[1]));
 				 								}});
+		}
 }
